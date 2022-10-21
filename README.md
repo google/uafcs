@@ -1,4 +1,22 @@
-# Generating Data Splits
+# Unsupervised Adaptation for Fairness under Covariate Shift
+
+This repository serves to open-source the code used in the paper: "[Unsupervised Adaptation for Fairness under Covariate Shift](go/uafcs)".
+
+## Preliminaries
+### Getting started
+
+To avoid any conflict with your existing Python setup, it is suggested to work in a virtual environment with [`virtualenv`](https://docs.python-guide.org/dev/virtualenvs/). To install `virtualenv`:
+```bash
+pip install --upgrade virtualenv
+```
+Create a virtual environment, activate it and install the requirements in [`requirements.txt`](requirements.txt).
+```bash
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+## Running the code
+### Generating Data Splits
 
 ```
 python generate_data_splits.py --ds_name {0} --gamma {1}
@@ -15,7 +33,7 @@ python generate_asymm_splits.py --ds_name {0}
 
 <br />
 
-# Running the main file
+### Running the main file
 To run the model
 ```
 python main.py --model_type {0} --ds_name {1} --do_train --k_shot {2}
@@ -25,3 +43,7 @@ Here<br />
 {1}: dataset name <br />
 {2}: the number of unlabelled test samples utilized <br />
 The remaining arguments can be found in "arguments.py" file with explanations
+
+## Disclaimer
+
+**This is not an officially supported Google product.**
