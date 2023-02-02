@@ -1,6 +1,6 @@
 # Unsupervised Adaptation for Fairness under Covariate Shift
 
-This repository serves to open-source the code used in the paper: "[Unsupervised Adaptation for Fairness under Covariate Shift](go/uafcs)".
+This repository serves to open-source the code used in the paper: "[Unsupervised Adaptation for Fairness under Covariate Shift](https://openreview.net/pdf?id=9_VrvV7d-FK)".
 
 ## Preliminaries
 ### Getting started
