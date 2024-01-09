@@ -47,3 +47,16 @@ The remaining arguments can be found in "arguments.py" file with explanations
 ## Disclaimer
 
 **This is not an officially supported Google product.**
+
+## Citation
+
+If you find our work relevant, please cite as: 
+
+```
+@article{havaldar2023improving,
+  title={Improving Fairness-Accuracy tradeoff with few Test Samples under Covariate Shift},
+  author={Havaldar, Shreyas and Chauhan, Jatin and Shanmugam, Karthikeyan and Nandy, Jay and Raghuveer, Aravindan},
+  journal={arXiv preprint arXiv:2310.07535},
+  year={2023}
+}
+```
