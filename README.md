@@ -1,6 +1,7 @@
 # Unsupervised Adaptation for Fairness under Covariate Shift
 
-This repository serves to open-source the code used in the paper: "[Improving Fairness-Accuracy tradeoff with few Test Samples under Covariate Shift](https://arxiv.org/abs/2310.07535)".
+This repository serves to open-source the code used in the paper: "[Fairness under Covariate Shift: Improving Fairness-Accuracy tradeoff with few Unlabeled Test Samples
+](https://arxiv.org/abs/2310.07535)".
 
 ## Preliminaries
 ### Getting started
